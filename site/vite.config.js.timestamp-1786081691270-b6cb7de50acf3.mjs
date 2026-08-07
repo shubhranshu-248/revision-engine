@@ -1,0 +1,18 @@
+// vite.config.js
+import { defineConfig } from "file:///sessions/optimistic-hopeful-shannon/mnt/ReviseX/site/node_modules/vite/dist/node/index.js";
+import react from "file:///sessions/optimistic-hopeful-shannon/mnt/ReviseX/site/node_modules/@vitejs/plugin-react/dist/index.js";
+var vite_config_default = defineConfig({
+  plugins: [react()],
+  // If deploying to GitHub Pages at https://<user>.github.io/revio/,
+  // uncomment and set base to '/revio/'. For Vercel or a custom
+  // root domain, leave base as '/'.
+  base: "/",
+  build: {
+    outDir: "dist",
+    assetsInlineLimit: 4096
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvc2Vzc2lvbnMvb3B0aW1pc3RpYy1ob3BlZnVsLXNoYW5ub24vbW50L1JldmlzZVgvc2l0ZVwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiL3Nlc3Npb25zL29wdGltaXN0aWMtaG9wZWZ1bC1zaGFubm9uL21udC9SZXZpc2VYL3NpdGUvdml0ZS5jb25maWcuanNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL3Nlc3Npb25zL29wdGltaXN0aWMtaG9wZWZ1bC1zaGFubm9uL21udC9SZXZpc2VYL3NpdGUvdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJ1xuaW1wb3J0IHJlYWN0IGZyb20gJ0B2aXRlanMvcGx1Z2luLXJlYWN0J1xuXG4vLyBodHRwczovL3ZpdGUuZGV2L2NvbmZpZy9cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG4gIHBsdWdpbnM6IFtyZWFjdCgpXSxcbiAgLy8gSWYgZGVwbG95aW5nIHRvIEdpdEh1YiBQYWdlcyBhdCBodHRwczovLzx1c2VyPi5naXRodWIuaW8vcmV2aW8vLFxuICAvLyB1bmNvbW1lbnQgYW5kIHNldCBiYXNlIHRvICcvcmV2aW8vJy4gRm9yIFZlcmNlbCBvciBhIGN1c3RvbVxuICAvLyByb290IGRvbWFpbiwgbGVhdmUgYmFzZSBhcyAnLycuXG4gIGJhc2U6ICcvJyxcbiAgYnVpbGQ6IHtcbiAgICBvdXREaXI6ICdkaXN0JyxcbiAgICBhc3NldHNJbmxpbmVMaW1pdDogNDA5NixcbiAgfSxcbn0pXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQWlWLFNBQVMsb0JBQW9CO0FBQzlXLE9BQU8sV0FBVztBQUdsQixJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTLENBQUMsTUFBTSxDQUFDO0FBQUE7QUFBQTtBQUFBO0FBQUEsRUFJakIsTUFBTTtBQUFBLEVBQ04sT0FBTztBQUFBLElBQ0wsUUFBUTtBQUFBLElBQ1IsbUJBQW1CO0FBQUEsRUFDckI7QUFDRixDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=

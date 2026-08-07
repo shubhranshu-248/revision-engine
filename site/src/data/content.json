@@ -1,0 +1,449 @@
+{
+  "subjects": [
+    {
+      "id": "physics",
+      "name": "Physics",
+      "slug": "physics",
+      "icon": "Atom",
+      "description": "CBSE Class 10 Physics — Light, Human Eye, Electricity, and Magnetic Effects of Current.",
+      "chapters": [
+        {
+          "id": "ph-ch10-light",
+          "number": 10,
+          "name": "Light — Reflection and Refraction",
+          "slug": "light-reflection-and-refraction",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ph-ch11-human-eye",
+          "number": 11,
+          "name": "The Human Eye and the Colourful World",
+          "slug": "human-eye-and-the-colourful-world",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ph-ch12-electricity",
+          "number": 12,
+          "name": "Electricity",
+          "slug": "electricity",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ph-ch13-magnetic-effects",
+          "number": 13,
+          "name": "Magnetic Effects of Electric Current",
+          "slug": "magnetic-effects-of-electric-current",
+          "status": "coming-soon",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "slug": "chemistry",
+      "icon": "FlaskConical",
+      "description": "CBSE Class 10 Chemistry — Chemical Reactions, Acids-Bases-Salts, Metals & Non-Metals, Carbon Compounds, and Periodic Classification.",
+      "chapters": [
+        {
+          "id": "ch-ch1-chemical-reactions",
+          "number": 1,
+          "name": "Chemical Reactions and Equations",
+          "slug": "chemical-reactions-and-equations",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ch-ch2-acids-bases-salts",
+          "number": 2,
+          "name": "Acids, Bases and Salts",
+          "slug": "acids-bases-and-salts",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ch-ch3-metals-non-metals",
+          "number": 3,
+          "name": "Metals and Non-Metals",
+          "slug": "metals-and-non-metals",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ch-ch4-carbon-compounds",
+          "number": 4,
+          "name": "Carbon and Its Compounds",
+          "slug": "carbon-and-its-compounds",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ch-ch5-periodic-classification",
+          "number": 5,
+          "name": "Periodic Classification of Elements",
+          "slug": "periodic-classification-of-elements",
+          "status": "coming-soon",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "slug": "mathematics",
+      "icon": "Calculator",
+      "description": "CBSE Class 10 Mathematics — Algebra, Geometry, Trigonometry, Coordinate Geometry, Mensuration, Statistics and Probability.",
+      "chapters": [
+        {
+          "id": "ma-ch1-real-numbers",
+          "number": 1,
+          "name": "Real Numbers",
+          "slug": "real-numbers",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch2-polynomials",
+          "number": 2,
+          "name": "Polynomials",
+          "slug": "polynomials",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch3-linear-equations",
+          "number": 3,
+          "name": "Pair of Linear Equations in Two Variables",
+          "slug": "pair-of-linear-equations-in-two-variables",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch4-quadratic-equations",
+          "number": 4,
+          "name": "Quadratic Equations",
+          "slug": "quadratic-equations",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch5-arithmetic-progressions",
+          "number": 5,
+          "name": "Arithmetic Progressions",
+          "slug": "arithmetic-progressions",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch6-triangles",
+          "number": 6,
+          "name": "Triangles",
+          "slug": "triangles",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch7-coordinate-geometry",
+          "number": 7,
+          "name": "Coordinate Geometry",
+          "slug": "coordinate-geometry",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch8-trigonometry",
+          "number": 8,
+          "name": "Introduction to Trigonometry",
+          "slug": "introduction-to-trigonometry",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch9-applications-trigonometry",
+          "number": 9,
+          "name": "Some Applications of Trigonometry",
+          "slug": "some-applications-of-trigonometry",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch10-circles",
+          "number": 10,
+          "name": "Circles",
+          "slug": "circles",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch11-areas-related-to-circles",
+          "number": 11,
+          "name": "Areas Related to Circles",
+          "slug": "areas-related-to-circles",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch12-surface-areas-volumes",
+          "number": 12,
+          "name": "Surface Areas and Volumes",
+          "slug": "surface-areas-and-volumes",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch13-statistics",
+          "number": 13,
+          "name": "Statistics",
+          "slug": "statistics",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ma-ch14-probability",
+          "number": 14,
+          "name": "Probability",
+          "slug": "probability",
+          "status": "coming-soon",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "slug": "biology",
+      "icon": "Leaf",
+      "description": "CBSE Class 10 Biology — Life Processes, Control and Coordination, Reproduction, Heredity, and Our Environment.",
+      "chapters": [
+        {
+          "id": "bi-ch6-life-processes",
+          "number": 6,
+          "name": "Life Processes",
+          "slug": "life-processes",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "bi-ch7-control-coordination",
+          "number": 7,
+          "name": "Control and Coordination",
+          "slug": "control-and-coordination",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "bi-ch8-reproduction",
+          "number": 8,
+          "name": "How do Organisms Reproduce?",
+          "slug": "how-do-organisms-reproduce",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "bi-ch9-heredity",
+          "number": 9,
+          "name": "Heredity",
+          "slug": "heredity",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "bi-ch13-our-environment",
+          "number": 13,
+          "name": "Our Environment",
+          "slug": "our-environment",
+          "status": "coming-soon",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "slug": "social-science",
+      "icon": "Globe",
+      "description": "CBSE Class 10 Social Science — History, Geography, Political Science and Economics, unified for board revision.",
+      "chapters": [
+        {
+          "id": "ss-hist-ch1-nationalism-europe",
+          "number": 1,
+          "name": "History — The Rise of Nationalism in Europe",
+          "slug": "rise-of-nationalism-in-europe",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-hist-ch2-nationalism-india",
+          "number": 2,
+          "name": "History — Nationalism in India",
+          "slug": "nationalism-in-india",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-hist-ch3-global-world",
+          "number": 3,
+          "name": "History — The Making of a Global World",
+          "slug": "making-of-a-global-world",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-hist-ch4-industrialisation",
+          "number": 4,
+          "name": "History — The Age of Industrialisation",
+          "slug": "age-of-industrialisation",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-hist-ch5-print-culture",
+          "number": 5,
+          "name": "History — Print Culture and the Modern World",
+          "slug": "print-culture-and-the-modern-world",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-geo-ch1-resources",
+          "number": 1,
+          "name": "Geography — Resources and Development",
+          "slug": "resources-and-development",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-geo-ch2-forest-wildlife",
+          "number": 2,
+          "name": "Geography — Forest and Wildlife Resources",
+          "slug": "forest-and-wildlife-resources",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-geo-ch3-water-resources",
+          "number": 3,
+          "name": "Geography — Water Resources",
+          "slug": "water-resources",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-geo-ch4-agriculture",
+          "number": 4,
+          "name": "Geography — Agriculture",
+          "slug": "agriculture",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-geo-ch5-minerals-energy",
+          "number": 5,
+          "name": "Geography — Minerals and Energy Resources",
+          "slug": "minerals-and-energy-resources",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-geo-ch6-manufacturing",
+          "number": 6,
+          "name": "Geography — Manufacturing Industries",
+          "slug": "manufacturing-industries",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-geo-ch7-lifelines",
+          "number": 7,
+          "name": "Geography — Lifelines of National Economy",
+          "slug": "lifelines-of-national-economy",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-pol-ch1-power-sharing",
+          "number": 1,
+          "name": "Political Science — Power Sharing",
+          "slug": "power-sharing",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-pol-ch2-federalism",
+          "number": 2,
+          "name": "Political Science — Federalism",
+          "slug": "federalism",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-pol-ch3-gender-religion-caste",
+          "number": 3,
+          "name": "Political Science — Gender, Religion and Caste",
+          "slug": "gender-religion-and-caste",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-pol-ch4-political-parties",
+          "number": 4,
+          "name": "Political Science — Political Parties",
+          "slug": "political-parties",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-pol-ch5-outcomes-democracy",
+          "number": 5,
+          "name": "Political Science — Outcomes of Democracy",
+          "slug": "outcomes-of-democracy",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-eco-ch1-development",
+          "number": 1,
+          "name": "Economics — Development",
+          "slug": "development",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-eco-ch2-sectors-indian-economy",
+          "number": 2,
+          "name": "Economics — Sectors of the Indian Economy",
+          "slug": "sectors-of-the-indian-economy",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-eco-ch3-money-credit",
+          "number": 3,
+          "name": "Economics — Money and Credit",
+          "slug": "money-and-credit",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-eco-ch4-globalisation",
+          "number": 4,
+          "name": "Economics — Globalisation and the Indian Economy",
+          "slug": "globalisation-and-the-indian-economy",
+          "status": "coming-soon",
+          "files": []
+        },
+        {
+          "id": "ss-eco-ch5-consumer-rights",
+          "number": 5,
+          "name": "Economics — Consumer Rights",
+          "slug": "consumer-rights",
+          "status": "coming-soon",
+          "files": []
+        }
+      ]
+    }
+  ]
+}

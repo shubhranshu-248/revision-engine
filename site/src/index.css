@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-bg-primary text-text-primary font-sans;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-text-primary;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: #dbeafe;
+    color: #1e293b;
+  }
+
+  a {
+    @apply transition-colors duration-150;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-bg-primary rounded;
+  }
+}
+
+@layer components {
+  .container-content {
+    @apply mx-auto w-full max-w-content px-6 md:px-8;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-xl bg-gradient-to-b from-accent to-accent-hover px-5 py-3 text-sm font-semibold text-white shadow-[0_1px_0_rgba(255,255,255,0.15)_inset,0_10px_20px_-8px_rgba(37,99,235,0.55)] transition-all duration-200 hover:from-accent-hover hover:to-[#1D4ED8] hover:-translate-y-0.5 hover:shadow-[0_1px_0_rgba(255,255,255,0.15)_inset,0_18px_30px_-10px_rgba(37,99,235,0.65)] active:translate-y-0 active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-white px-5 py-3 text-sm font-semibold text-text-primary shadow-sm transition-all duration-200 hover:border-slate-300 hover:bg-muted-bg hover:-translate-y-0.5;
+  }
+
+  .btn-hero {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur transition-all duration-200 hover:border-white/25 hover:bg-white/15 hover:-translate-y-0.5;
+  }
+
+  .card-base {
+    @apply rounded-2xl border border-border bg-bg-card shadow-card transition-all duration-300 ease-out-expo;
+  }
+
+  .card-interactive {
+    @apply card-base hover:-translate-y-1 hover:shadow-card-hover hover:border-slate-300/70;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full bg-badge-bg px-2.5 py-1 text-xs font-medium text-badge-text ring-1 ring-inset ring-blue-100;
+  }
+
+  .badge-muted {
+    @apply inline-flex items-center gap-1 rounded-full bg-muted-bg px-2.5 py-1 text-xs font-medium text-muted-text ring-1 ring-inset ring-slate-200;
+  }
+
+  /* Gradient text for hero headline */
+  .text-gradient {
+    background: linear-gradient(180deg, #ffffff 0%, #cbd5e1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .text-gradient-accent {
+    background: linear-gradient(90deg, #60a5fa 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* Chip on hero — pill with subtle shine */
+  .chip-hero {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur;
+  }
+
+  /* Divider label — small mono caption with connecting hair-line */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 font-mono text-[11px] font-semibold uppercase tracking-[0.18em] text-accent;
+  }
+
+  .eyebrow::before {
+    content: '';
+    @apply block h-px w-8 bg-gradient-to-r from-accent/60 to-transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
