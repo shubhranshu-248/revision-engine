@@ -1,0 +1,16 @@
+{
+  "name": "Revision Engine",
+  "short_name": "RevEngine",
+  "description": "A premium revision platform for CBSE Class 10 students.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
