@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import type { LucideIcon } from 'lucide-react';
 import {
   BookOpen,
   Target,
@@ -23,8 +24,7 @@ import { features, faqs, testimonials, stats, howItWorks } from '@/data/landing'
 import { subjects } from '@/data/content';
 import type { FAQ } from '@/types';
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const featureIcons: Record<string, React.ComponentType<any>> = {
+const featureIcons: Record<string, LucideIcon> = {
   BookOpen,
   Target,
   Zap,
