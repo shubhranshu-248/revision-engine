@@ -10,7 +10,7 @@ export interface Chapter {
 export interface ResourceFile {
   id: string;
   name: string;
-  type: 'pdf' | 'notes' | 'summary' | 'practice';
+  type: 'pdf' | 'notes' | 'summary' | 'practice' | 'cheatsheet' | 'mindmap' | 'revision' | 'solutions' | 'worksheet';
   url: string;
   size?: string;
 }

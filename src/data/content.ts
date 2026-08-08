@@ -36,7 +36,20 @@ export const subjects: Subject[] = [
     icon: 'FlaskConical',
     description: 'CBSE Class 10 Chemistry — Chemical Reactions, Acids-Bases-Salts, Metals & Non-Metals, Carbon Compounds, and Periodic Classification.',
     chapters: [
-      { id: 'ch-ch1-chemical-reactions', number: 1, name: 'Chemical Reactions and Equations', slug: 'chemical-reactions-and-equations', status: 'coming-soon', files: [] },
+      {
+        id: 'ch-ch1-chemical-reactions',
+        number: 1,
+        name: 'Chemical Reactions and Equations',
+        slug: 'chemical-reactions-and-equations',
+        status: 'available',
+        files: [
+          { id: 'ch-ch1-cheatsheet', name: 'Cheatsheet', type: 'cheatsheet', url: '/assets/chemistry/chemical-reactions-and-equations/cheatsheet.docx', size: '73 KB' },
+          { id: 'ch-ch1-mindmap', name: 'Mindmap', type: 'mindmap', url: '/assets/chemistry/chemical-reactions-and-equations/mindmap.pptx', size: '35 KB' },
+          { id: 'ch-ch1-quick-revision', name: 'Quick Revision', type: 'revision', url: '/assets/chemistry/chemical-reactions-and-equations/quick-revision.pptx', size: '1.3 MB' },
+          { id: 'ch-ch1-solutions', name: 'Solutions', type: 'solutions', url: '/assets/chemistry/chemical-reactions-and-equations/solutions.docx', size: '44 KB' },
+          { id: 'ch-ch1-worksheet', name: 'Worksheet', type: 'worksheet', url: '/assets/chemistry/chemical-reactions-and-equations/worksheet.docx', size: '43 KB' },
+        ],
+      },
       { id: 'ch-ch2-acids-bases-salts', number: 2, name: 'Acids, Bases and Salts', slug: 'acids-bases-and-salts', status: 'coming-soon', files: [] },
       { id: 'ch-ch3-metals-non-metals', number: 3, name: 'Metals and Non-Metals', slug: 'metals-and-non-metals', status: 'coming-soon', files: [] },
       { id: 'ch-ch4-carbon-compounds', number: 4, name: 'Carbon and Its Compounds', slug: 'carbon-and-its-compounds', status: 'coming-soon', files: [] },
