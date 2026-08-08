@@ -5,11 +5,16 @@ import { cn } from '@/lib/utils';
 type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
 type ButtonSize = 'sm' | 'md' | 'lg';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps {
   variant?: ButtonVariant;
   size?: ButtonSize;
   isLoading?: boolean;
   icon?: React.ReactNode;
+  children?: React.ReactNode;
+  className?: string;
+  disabled?: boolean;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  type?: 'button' | 'submit' | 'reset';
 }
 
 const variantStyles: Record<ButtonVariant, string> = {
@@ -28,10 +33,11 @@ const sizeStyles: Record<ButtonSize, string> = {
 };
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant = 'primary', size = 'md', isLoading, icon, children, disabled, ...props }, ref) => {
+  ({ className, variant = 'primary', size = 'md', isLoading, icon, children, disabled, onClick, type = 'button' }, ref) => {
     return (
       <motion.button
         ref={ref}
+        type={type}
         whileHover={{ scale: disabled || isLoading ? 1 : 1.02 }}
         whileTap={{ scale: disabled || isLoading ? 1 : 0.98 }}
         className={cn(
@@ -43,7 +49,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           className
         )}
         disabled={disabled || isLoading}
-        {...props}
+        onClick={onClick}
       >
         {isLoading ? (
           <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
