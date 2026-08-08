@@ -23,7 +23,8 @@ import { features, faqs, testimonials, stats, howItWorks } from '@/data/landing'
 import { subjects } from '@/data/content';
 import type { FAQ } from '@/types';
 
-const featureIcons: Record<string, React.ComponentType<{ className?: string; size?: number }>> = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const featureIcons: Record<string, React.ComponentType<any>> = {
   BookOpen,
   Target,
   Zap,
